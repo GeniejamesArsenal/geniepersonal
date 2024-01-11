@@ -1,0 +1,70 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: url(https://scontent-mnl1-1.xx.fbcdn.net/v/t1.6435-9/201111974_971364486950027_4934249726501306061_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=2be8e3&_nc_ohc=CFT28yy2rTYAX_1f1lq&_nc_ht=scontent-mnl1-1.xx&oh=00_AfDPiDuf0hQ1g8AZrRYmawBedKL7DiGuN8svAon2TQQNSw&oe=65C6078C);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*** social media ni choi ha AHHAHAH **/
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    width: 20%;
+    top: 95%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+  }
+  
+  ul li {
+    list-style: none;
+    margin: 0 15px;
+  }
+  
+  ul li a {
+    position: relative; 
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 63px;
+    background: #333;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #666;
+    transition: .5s;
+  }
+  
+  ul li a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #ffee10;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+  }
+  
+  ul li a:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ffee10;
+  }
+  
+  ul li a:hover {
+    color: #ffee10;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+  }
