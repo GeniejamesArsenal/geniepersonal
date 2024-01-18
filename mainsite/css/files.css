@@ -7,7 +7,7 @@
 }
 body{
     height: 100vh;
-    background: url(https://scontent-mnl1-1.xx.fbcdn.net/v/t1.6435-9/201111974_971364486950027_4934249726501306061_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=2be8e3&_nc_ohc=CFT28yy2rTYAX_1f1lq&_nc_ht=scontent-mnl1-1.xx&oh=00_AfDPiDuf0hQ1g8AZrRYmawBedKL7DiGuN8svAon2TQQNSw&oe=65C6078C);
+    background-color:white;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,3 +68,18 @@ ul {
     box-shadow: 0 0 5px #ffee10;
     text-shadow: 0 0 5px #ffee10;
   }
+.blockingsites{
+  box-shadow: 10px 5px 5px red;
+  border: 2px solid black;
+  margin: 15px;
+  padding: 20px;
+  height: 200px;
+  width: 500px;
+}
+.blockingsites p a{
+  text-decoration: none;
+}
+.blockingsites h1{
+  font-family: "Dancing Script", cursive;
+  font-size: small;
+}
