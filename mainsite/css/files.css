@@ -73,7 +73,23 @@ ul {
   border: 2px solid black;
   margin: 15px;
   padding: 20px;
-  height: 200px;
+  height: flex;
+  width: 500px;
+}
+.blockingsites p a{
+  text-decoration: none;
+}
+.blockingsites h1{
+  font-family: "Dancing Script", cursive;
+  font-size: small;
+}
+
+.blockingsites-1{
+  box-shadow: 10px 5px 5px red;
+  border: 2px solid black;
+  margin: 15px;
+  padding: 20px;
+  height: flex;
   width: 500px;
 }
 .blockingsites p a{
